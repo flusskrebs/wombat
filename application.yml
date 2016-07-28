@@ -1,3 +1,15 @@
-einstellung:
-    id: 0815
-
+eureka:
+  instance: 
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 10
+    metadataMap:
+      providerName: Joerg
+      payment: perCall
+      instanceId: JoergBakery1
+  client:
+    fetchRegistry: false
+    instanceInfoReplicationIntervalSeconds: 10
+    initialInstanceInfoReplicationIntervalSeconds: 10
+    serviceUrl:
+      defaultZone: http://eurekas.onevoila.rocks/eureka
+      
