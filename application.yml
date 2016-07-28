@@ -11,5 +11,5 @@ eureka:
     instanceInfoReplicationIntervalSeconds: 10
     initialInstanceInfoReplicationIntervalSeconds: 10
     serviceUrl:
-      defaultZone: https://eurekas.onevoila.rocks/eureka
+      defaultZone: https://eurekas.onevoila.rocks
       
